@@ -1,0 +1,838 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 2;
+  color: #3F3F3F;
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  line-height: 50px;
+}
+
+img {
+  vertical-align:bottom;
+}
+
+a {
+  color: #606060;
+  text-decoration: none;
+  transition-duration:0.5s;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  height: 100px;
+  margin: 0 auto;
+}
+
+.logoTop {
+  float: left;
+  margin: 20px 0 0 50px;
+}
+
+header .fa-bars{
+  color: #6d6d6d;
+  position: absolute;
+  right: 5vw;
+  top: 35px;
+  display: none;
+}
+
+header .fa-bars:hover{
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+header .fa-times{
+  color: #6d6d6d;
+  position: absolute;
+  right: 5%;
+  top: 10px;
+}
+
+header .fa-times:hover{
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+
+.global-nav {
+  float: right;
+  margin-top: 20px;
+}
+
+.global-nav li {
+  float: left;
+  margin-right: 40px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.global-nav li a:hover{
+  text-decoration: none;
+  border-bottom: 3px solid #3F3F3F;
+}
+
+#wrap {
+  clear: both;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#contentTop {
+  position: relative;
+}
+
+.imageBig {
+  width: 100vw ;  
+  display: none;
+}
+
+.imageBig-m {
+  width: 100vw;
+  display: none;
+}
+
+
+.imageBig2 {
+  width: 100vw ;  
+}
+
+.imageMiddle {
+  float: left;
+  width: 310px;
+  padding-left: 20px;
+}
+
+.imageSmall {
+  width: 250px; 
+  margin: 0 33px;
+}
+
+#curology {
+} 
+
+#curology h2 {
+  line-height: 1em;
+}
+
+#curology p {
+  padding-left: 5px;
+}
+
+#curologyText {
+  position: absolute;
+  bottom: -80px; 
+  left:4%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#btnStore a{
+  background-color: #4446b7;
+  color: #FFFFFF;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  border: 3px solid #4446b7;
+  padding: 5px 0;
+}
+
+#btnStore a:hover {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #4446b7;
+}
+
+#btnStore a::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f07a";
+  font-weight : 900;
+  padding-right: 20px;
+}
+
+#btnBrand a{
+  background-color: #372f89;
+  color: #FFFFFF;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 8px;
+  border: 3px solid #372f89;
+}
+
+#btnBrand a:hover {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #372f89;
+}
+
+#btnBrand a::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f26c";
+  font-weight : 900;
+  padding-right: 20px;
+}
+
+#contentMiddle {
+  margin: 150px auto 100px;
+}
+
+#contentBottom {
+  margin: 100px auto;
+}
+
+#contentBottomText {
+  padding: 0 0 100px 30px;
+  width: 40vw;
+}
+
+#contentBottomText span {
+  font-size: 14px;
+}  
+
+#connect {
+  margin-right: 15px;
+}
+
+#keisen {
+  letter-spacing: -1px;
+}
+
+#sns {
+  font-size: 18px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#sns i{
+  padding:0 15px;
+  font-size: 1.3em;
+  color: #6d6d6d;
+}
+
+#sns a:hover{
+  opacity: 0.3;
+}
+
+#buttonThree {
+  margin-top: 80px;
+  width: 100vw;
+  text-align: center;
+}
+
+
+#btnStore2 {
+  display: inline-block;
+}
+
+#btnStore2 a{
+  background-color: #4446b7;
+  color: #FFFFFF;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 3px solid #4446b7;
+  display: inline-block;
+}
+
+#btnStore2 a:hover {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #4446b7;
+}
+
+#btnStore2 a::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f07a";
+  font-weight : 900;
+  padding-right: 40px;
+}
+
+#btnBrand2 {
+  display: inline-block;
+}
+
+#btnBrand2 a{
+  background-color: #372f89;
+  color: #FFFFFF;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 3px solid #372f89;
+  display: inline-block;
+}
+
+#btnBrand2 a:hover {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #372f89;
+}
+
+#btnBrand2 a::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f26c";
+  font-weight : 900;
+  padding-right: 40px;
+}
+
+#btnList a{
+  background-color: #525252;
+  color: #FFFFFF;
+  font-size: 22px;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 3px solid #525252;
+  margin:20px auto 0px;
+}
+
+#btnList a:hover {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #525252;
+}
+
+footer {
+  height: auto;
+  margin-top: 100px;
+}
+
+#footerTop {
+  background-color : #FFFFFF;
+  border-top: 1px solid #989898;
+  width: 100vw;
+  height: 70px;
+}
+
+.logoBottom {
+  float:left;
+  margin-left: 50px;
+}
+
+.logoBottom a {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.logoBottom a::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f1b0";
+  font-weight : 900;
+  padding-right: 10px;
+}
+
+.footerTopNav ul{
+  text-align: right;
+  margin-top: 15px;
+}
+
+.footerTopNav li {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.footerTopNav li a:hover{
+  text-decoration: none;
+  border-bottom: 3px solid #3F3F3F;
+}
+
+#footerBottom {
+  width: 100w;
+  height: 100px;
+  background-color: #525252;
+}
+
+.footerBottomNavi ul{ 
+}
+
+
+.footerBottomNavi li{
+  float: left;
+  font-size: 16px;
+  margin-right: 40px;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.footerBottomNavi li a{
+  color: #FFFFFF;
+}
+
+.footerBottomNavi li a:hover{
+  text-decoration: none;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#copyright {
+  color: #FFFFFF;
+  float: right;
+  margin: 40px 40px 0 0;
+}
+
+.fadeIn {
+    opacity : 0;
+    transform: translateY(20px);
+    transition: all 2s;
+}
+
+@media screen and (max-width:767px) {
+  .logoTop {
+    float: left;
+    margin: 5px 0 0 10px;
+  }
+  
+  header {
+    height: 10vw;
+    margin: 0;
+  }
+  
+  .logoTop h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5vw
+  }
+  
+  header .fa-bars{
+    display: block;
+    top: 2vw;
+    font-size:7vw;
+  }
+  
+
+  #curologyLogo {
+    position: relative;
+  }
+  
+  #curology {
+    position: absolute;
+    left: 3%;
+    top: -5vw;
+  } 
+
+  #curology h2 {
+    font-size: 10vw
+  }
+  
+  #curology p {
+    font-size:4vw;
+    font-weight: bold;
+  }
+  
+  #underImageButton {
+    position: absolute;
+    bottom: -160px;
+  }
+
+  
+  #btnStore {
+    display: inline-block;
+  }
+  
+  #btnStore a{
+    width: 45vw;
+    font-size: 3vw;
+  }
+  #btnBrand {
+    display: inline-block;
+  }
+  
+  #btnBrand a{
+    width: 45vw;
+    font-size: 3vw;
+  }
+
+  #contentMiddle {
+    width: 70vw;
+  } 
+
+  #contentMiddleText {
+    width: 70vw;
+    margin: 0 auto;
+  }    
+
+  .imageBig2 {
+    display: none;
+  }
+  
+  .imageBig2-m {
+    display: block;
+    width:100vw;
+  }
+  
+  .imageMiddle {
+    display: none;
+  }
+
+  .imageMiddle-m {
+    display: block;
+    width: 50vw;
+    margin: 200px auto 50px;
+  }
+
+  #contentBottom {
+    width: 100vw;
+  }
+
+  #contentBottomText {
+    width: 70vw;
+    padding: 0;
+    margin: 0 auto;
+  }  
+  
+  .imageSmall {
+    display: none;
+  }
+
+  #imageSmall-m1 {
+    display: block;
+    width: 60vw;
+    margin: 50px auto 6px;  
+  }
+
+  #imageSmall-m2 {
+    float: left;
+    width: 29.5vw;
+    margin-left: 20vw;
+  }
+
+  #imageSmall-m3 {
+    float: right;
+    width: 29.5vw;
+    margin-right:20vw;
+  }
+
+  #connect {
+    display: block;
+    margin:0 auto;
+  }
+
+  #keisen {
+    display: none;
+  }
+
+  #sns {
+    font-size: 18px;
+    margin-top: 100px;
+  }
+
+  #sns i{
+    padding: 0 20px;
+    font-size: 1.5em;
+    color: #6d6d6d;
+  }
+
+  #buttonThree {
+    width: 100vw;
+    margin-top: 80px;
+  }
+
+  #btnStore2 a{
+    width: 45vw;
+    font-size: 3vw;
+  }
+  
+
+  #btnStore2 a::before {
+    padding-right: 20px;
+  }
+
+
+  #btnBrand2 a{
+    width: 45vw;
+    font-size: 3vw;
+  }
+
+  #btnBrand2 a::before{
+    padding-right: 20px;
+  }
+  
+
+  #btnList a{
+    width:45vw;
+    font-size: 3vw;
+  }  
+  
+  .global-nav {
+    position: fixed;
+    background-color: rgba(255,255,255,0.85);
+    padding-top: 50px;
+    z-index: 2;
+    margin: 0;
+    display: none;
+    height: 200vw;
+  }
+
+  .global-nav ul {
+    padding:0;
+  }
+  
+  .global-nav li {
+    clear: both;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 3vw 0;
+    text-align: center;
+    list-style: none;
+    width: 100vw;
+    margin:0;
+  }
+
+  .global-nav li a {
+    border-bottom: 3px solid #3F3F3F;
+  }
+
+  #footerTop{
+    height: 250px;
+  }
+
+  .logoBottom{
+    float: none;
+    margin: 0;
+    text-align: center;
+    padding-top:10px;
+  }
+  
+  .footerTopNav ul{ 
+    text-align:center;
+    padding: 0;
+  }
+
+  .footerTopNav li {
+    display: block;
+    margin:0 40px;
+    font-size: 25px;
+  }
+
+  #footerBottom {
+    height: 250px;
+    padding-top: 10px;
+  }
+  
+  .footerBottomNavi ul{
+    text-align: center;
+    padding-top:100px;
+    padding: 0;
+  }
+
+  .footerBottomNavi li{
+    float: none;
+    font-size: 20px;
+    margin: 20px 50px;
+    list-style: none;
+  }
+
+  #copyright{
+    float: none;
+    margin: 0;
+    font-size: 2vw;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
+}
+
+
+@media screen and (min-width:768px) and (max-width:960px){
+  
+  header .fa-times{
+    display: none;
+  }
+  
+#curology {
+    position: absolute;
+    left: 3%;
+    bottom: -85px;
+}
+
+  #curology p {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  #curology h2 {
+    font-size: 80px;
+  }
+
+  #underImageButton {
+    position: absolute;
+    bottom: -150px;
+  }
+
+  #btnStore a{
+    width: 47vw;
+  }
+
+  #btnBrand a{
+    width: 47vw;
+    margin-left: 10px;
+  }
+
+  #contentMiddle {
+    max-width: 960px; 
+    padding: 180px 0;
+    margin: auto;
+  }
+
+  #contentMiddleText {
+    float: left;
+    padding-left: 35px;
+    max-width: 50vw;
+  }  
+
+  .imageBig2-m {
+    display: none;
+  }
+  
+  .footerBottomNavi li{
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+
+  #contentbottomImage {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .imageMiddle-m {
+    display: none;
+  }
+
+  .imageSmall {
+    width: 29%; 
+    margin: 0 15px;
+  }  
+
+  .imageSmall-m {
+    display: none;
+  }
+
+  #buttonThree {
+    width: 100vw;
+    margin-top: 80px;
+  }
+
+  #btnStore2 a{
+    width: 45vw;
+  }
+
+  #btnBrand2 a{
+    width: 45vw;
+  }  
+
+  #btnList a{
+    width: 45vw;
+  }
+
+  .global-nav {
+    float: right;
+    margin-right: 5px;
+  }
+
+  .global-nav li {
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+}
+
+
+/*PC画面用CSS*/
+@media screen and (min-width:961px) {
+
+  header .fa-times{
+    display: none;
+  }
+  
+  #curology {
+    position: absolute;
+    left: 3%;
+    bottom: -90px;
+  } 
+
+  #curology p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #curology h2 {
+    font-size: 80px;
+  }
+
+  #underImageButton {
+    position: absolute;
+    bottom: -7%; 
+    right: 1%;
+  }
+
+  .btnTable {
+    width :270px;
+  }
+
+  #btnStore a{
+    margin-left: 20px;
+  }
+
+  #btnBrand a{
+    margin-left: 20px;
+  }
+
+  #contentMiddle {
+    width: 960px; 
+  }  
+
+  #contentMiddleText {
+    width: 560px;
+    float: left;
+    padding-left: 50px;
+  }
+
+  .imageBig2-m {
+    display: none;
+  }
+  
+  .imageMiddle-m {
+    display: none;
+  }
+
+  #contentBottom {
+    width: 960px;
+  }  
+
+  .imageSmall-m {
+    display: none;
+  }
+
+  #btnStore2 a{
+    width: 30vw;
+  }
+
+  #btnBrand2 a{
+    width: 30vw;
+  }
+
+  #btnList a{
+    width: 30vw;
+  }
+
+}
